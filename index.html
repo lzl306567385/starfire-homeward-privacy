@@ -20,16 +20,23 @@
 </head>
 <body>
 <main>
-<nav><a href="#en">English</a> · <a href="#zh">中文</a></nav>
+<nav><a href="#en">English</a> · <a href="#zh">中文</a> · <a href="delete-account/">Delete your account / 删除账号</a></nav>
 
 <section id="en">
 <h1>Privacy Policy — Starfire Homeward</h1>
-<p class="meta">Effective date: October 30, 2026 · Developer: liuzhilin · Contact: <a href="mailto:liuzhilin1230@gmail.com">liuzhilin1230@gmail.com</a></p>
+<p class="meta">Effective date: November 2, 2026 · Developer: liuzhilin (bigfish) · Contact: <a href="mailto:liuzhilin1230@gmail.com">liuzhilin1230@gmail.com</a></p>
 
 <p>This policy explains what information is handled when you play <strong>Starfire Homeward</strong> (the "Game") on Android, distributed through Google Play.</p>
 
-<h2>1. Information we collect ourselves</h2>
-<p>None. The Game has no account system and no game server of its own. Your progress, settings and purchase records are stored only on your device. We do not receive, sell or share this data.</p>
+<h2>1. Your account and cloud save</h2>
+<p>You sign in to the Game with your Google account. Sign-in is handled by Google and by our backend provider Supabase, which hosts our account and save service. We receive and store:</p>
+<ul>
+  <li>your email address, your name and profile picture URL as provided by Google, and a Google account identifier;</li>
+  <li>a player ID created by the Game;</li>
+  <li>your game save (progress, items, settings) and a short summary of it (level, stage, save time), plus up to two earlier copies kept to recover from sync conflicts;</li>
+  <li>technical records needed to sync safely (save revision numbers, request IDs, timestamps).</li>
+</ul>
+<p>We use this only to let you sign in, keep your progress in the cloud, restore it on another device and resolve conflicts between devices. We do not sell it, do not use it for advertising and do not share it with anyone except the service providers that run the service for us (Google for sign-in, Supabase for hosting). Data is encrypted in transit (HTTPS). A copy of your save and your sign-in session is also kept on your device; the session is stored encrypted.</p>
 
 <h2>2. Advertising (Google AdMob)</h2>
 <p>The Game shows ads, including optional rewarded videos, through Google AdMob. To serve and measure ads and to prevent fraud, Google may collect and process:</p>
@@ -39,36 +46,48 @@
   <li>device and app information (model, OS version, language, app version);</li>
   <li>ad interactions (ads shown, clicked, completed) and diagnostic data.</li>
 </ul>
-<p>In the European Economic Area, the UK and Switzerland, and in other regions where required, the Game asks for your consent before personalized ads are shown, using Google's User Messaging Platform. You can change this choice at any time from <em>Settings → Privacy settings</em> in the Game. Where you do not consent, Google may still show non-personalized ads.</p>
+<p>In the European Economic Area, the UK and Switzerland, and in other regions where required, the Game asks for your consent before personalized ads are shown, using Google's User Messaging Platform. You can change this choice at any time from Settings → Privacy settings in the Game. Where you do not consent, Google may still show non-personalized ads. We do not send your account email or save data to AdMob.</p>
 <p>You can reset your advertising ID or opt out of personalized ads in your device settings (Settings → Google → Ads, or Settings → Privacy → Ads). Learn how Google uses data: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
 <h2>3. In-app purchases (Google Play Billing)</h2>
-<p>Purchases are processed entirely by Google Play. We never see your payment card or billing details. The Game receives only the product, order ID and purchase token from Google Play and stores them on your device to deliver your items and to prevent duplicate delivery. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&ldt=privacynotice">Google Payments Privacy Notice</a>.</p>
+<p>Purchases are processed entirely by Google Play. We never see your payment card or billing details. The Game receives the product, order ID and purchase token from Google Play. We store them with your account and check them with Google Play to deliver your items, to prevent duplicate delivery and to handle refunds. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments Privacy Notice</a>.</p>
 
 <h2>4. Children</h2>
-<p>The Game is not directed to children under 13, and we do not knowingly collect personal information from them. If you believe a child has provided information through the Game, contact us and we will help remove it.</p>
+<p>The Game is not directed to children under 13, and we do not knowingly collect personal information from them. If you believe a child has provided information through the Game, contact us and we will delete it.</p>
 
 <h2>5. Retention and deletion</h2>
-<p>Game data on your device is removed when you clear the app's data or uninstall the Game. Note that uninstalling also removes your progress, because it is not backed up to any server of ours. Data collected by Google is kept according to Google's policies; you can manage it through your Google account and device settings.</p>
+<p>We keep your account and cloud save while your account exists. You can delete your account at any time:</p>
+<ul>
+  <li>in the Game: Settings → Account &amp; cloud save → Delete account; or</li>
+  <li>from the web: follow the steps on <a href="delete-account/">the account deletion page</a>.</li>
+</ul>
+<p>Deleting your account permanently removes your account, player ID, cloud save, earlier save copies and sync records from our service: immediately when done in the Game, and at the latest within 30 days of a web request. Purchase records may be kept only as long as needed to handle refunds, prevent fraud and meet legal obligations, and are then deleted. The copy on your device is removed when you clear the app's data or uninstall the Game. Data collected by Google is kept according to Google's policies.</p>
 
 <h2>6. Your rights</h2>
-<p>Depending on where you live (for example under the GDPR or the California Consumer Privacy Act), you may have rights to access, correct, delete or object to the processing of your personal data. Because we hold no personal data ourselves, most requests are handled through the controls above or directly with Google. You may still contact us with any question or request.</p>
+<p>Depending on where you live (for example under the GDPR or the California Consumer Privacy Act), you may have rights to access, correct, delete or export your personal data or to object to its processing. Contact us to make a request; we answer within 30 days. Requests about advertising data are handled through the controls above or directly with Google.</p>
 
 <h2>7. Changes</h2>
-<p>We may update this policy, for example when the Game adds new features or services. The new version will be published at this address with a new effective date.</p>
+<p>We may update this policy when the Game adds new features or services. The new version will be published at this address with a new effective date.</p>
 
 <h2>8. Contact</h2>
-<p>liuzhilin — <a href="mailto:liuzhilin1230@gmail.com">liuzhilin1230@gmail.com</a></p>
+<p>liuzhilin (bigfish) — <a href="mailto:liuzhilin1230@gmail.com">liuzhilin1230@gmail.com</a></p>
 </section>
 
 <section id="zh" class="lang" lang="zh-CN">
 <h1>隐私政策 — 星火归途</h1>
-<p class="meta">生效日期：2026 年 10 月 30 日 · 开发者：liuzhilin · 联系方式：<a href="mailto:liuzhilin1230@gmail.com">liuzhilin1230@gmail.com</a></p>
+<p class="meta">生效日期：2026 年 11 月 2 日 · 开发者：liuzhilin（bigfish）· 联系方式：<a href="mailto:liuzhilin1230@gmail.com">liuzhilin1230@gmail.com</a></p>
 
 <p>本政策说明你在 Android 上（通过 Google Play 下载）游玩《星火归途》（以下简称"本游戏"）时涉及的信息处理。</p>
 
-<h2>1. 我们自己收集的信息</h2>
-<p>无。本游戏没有账号系统，也没有自己的游戏服务器。你的进度、设置和购买记录只保存在你的设备上。我们不会接收、出售或共享这些数据。</p>
+<h2>1. 账号与云存档</h2>
+<p>你使用 Google 账号登录本游戏。登录由 Google 以及为我们提供账号和存档服务的后台服务商 Supabase 处理。我们接收并保存：</p>
+<ul>
+  <li>Google 提供的邮箱地址、姓名和头像链接，以及 Google 账号标识；</li>
+  <li>本游戏生成的玩家 ID；</li>
+  <li>你的游戏存档（进度、物品、设置）及其简要信息（等级、关卡、保存时间），以及为解决同步冲突保留的最多两份旧存档；</li>
+  <li>安全同步所需的技术记录（存档修订号、请求 ID、时间戳）。</li>
+</ul>
+<p>这些数据只用于登录、云端保存进度、在其他设备上恢复以及解决多设备冲突。我们不会出售这些数据，不用于广告，除为我们运营服务的服务商（Google 负责登录，Supabase 负责托管）外不与任何人共享。数据在传输中加密（HTTPS）。你的设备上也会保存一份存档和登录会话，会话以加密方式保存。</p>
 
 <h2>2. 广告（Google AdMob）</h2>
 <p>本游戏通过 Google AdMob 展示广告（包括可自愿观看的激励视频）。为投放和衡量广告、防止作弊，Google 可能收集和处理：</p>
@@ -78,26 +97,31 @@
   <li>设备和应用信息（机型、系统版本、语言、应用版本）；</li>
   <li>广告互动（展示、点击、看完）和诊断数据。</li>
 </ul>
-<p>在欧洲经济区、英国、瑞士以及法律要求的其他地区，本游戏会通过 Google 用户消息平台（UMP）在展示个性化广告前征求你的同意。你可以随时在游戏的"设置 → 隐私设置"中更改选择。不同意时，Google 仍可能展示非个性化广告。</p>
-<p>你可以在设备设置中重置广告 ID 或关闭个性化广告（设置 → Google → 广告，或 设置 → 隐私 → 广告）。了解 Google 如何使用数据：<a href="https://policies.google.com/technologies/partner-sites">Google 如何使用合作伙伴网站或应用中的信息</a>、<a href="https://policies.google.com/privacy">Google 隐私权政策</a>。</p>
+<p>在欧洲经济区、英国、瑞士以及其他有相应要求的地区，本游戏会通过 Google 用户消息平台（UMP）在展示个性化广告前征求你的同意。你可以随时在游戏的"设置 → 隐私设置"中更改。如果你不同意，Google 仍可能展示非个性化广告。我们不会把你的账号邮箱或存档数据发送给 AdMob。</p>
+<p>你可以在设备设置中重置广告 ID 或关闭个性化广告（设置 → Google → 广告，或 设置 → 隐私 → 广告）。了解 Google 如何使用数据：<a href="https://policies.google.com/technologies/partner-sites">Google 如何使用来自使用其服务的网站或应用的信息</a>及 <a href="https://policies.google.com/privacy">Google 隐私权政策</a>。</p>
 
 <h2>3. 应用内购买（Google Play 结算）</h2>
-<p>购买完全由 Google Play 处理，我们看不到你的银行卡或账单信息。本游戏只从 Google Play 收到商品、订单号和购买凭证，并保存在你的设备上，用于发放道具和防止重复发放。详见 <a href="https://policies.google.com/privacy">Google 隐私权政策</a> 和 <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&ldt=privacynotice">Google 付款隐私权声明</a>。</p>
+<p>购买完全由 Google Play 处理，我们看不到你的银行卡或账单信息。本游戏从 Google Play 获得商品、订单号和购买凭证，我们将其与你的账号一起保存，并向 Google Play 核验，用于发放物品、防止重复发放和处理退款。参见 <a href="https://policies.google.com/privacy">Google 隐私权政策</a>及 <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice">Google 付款隐私声明</a>。</p>
 
 <h2>4. 儿童</h2>
-<p>本游戏不面向 13 岁以下儿童，我们不会有意收集其个人信息。如果你认为有儿童通过本游戏提供了信息，请联系我们，我们会协助删除。</p>
+<p>本游戏不面向 13 岁以下儿童，我们不会在知情的情况下收集其个人信息。如果你认为有儿童通过本游戏提供了信息，请联系我们，我们会删除。</p>
 
 <h2>5. 保存与删除</h2>
-<p>清除应用数据或卸载本游戏即可删除设备上的游戏数据。注意：卸载也会删除你的进度，因为进度不会备份到我们的任何服务器。Google 收集的数据按 Google 的政策保存，你可以通过 Google 账号和设备设置管理。</p>
+<p>账号存在期间，我们保存你的账号和云存档。你可以随时删除账号：</p>
+<ul>
+  <li>在游戏中：设置 → 账号与云存档 → 删除账号；或</li>
+  <li>通过网页：按照<a href="delete-account/">账号删除页面</a>的步骤申请。</li>
+</ul>
+<p>删除账号会从我们的服务中永久删除你的账号、玩家 ID、云存档、旧存档副本和同步记录：在游戏内删除立即生效，网页申请最迟在 30 天内完成。购买记录仅在处理退款、防欺诈和履行法律义务所需期间保留，之后删除。设备上的副本在你清除应用数据或卸载游戏时删除。Google 收集的数据按 Google 的政策保存。</p>
 
 <h2>6. 你的权利</h2>
-<p>根据你所在地区的法律（例如欧盟《通用数据保护条例》或美国加州《消费者隐私法》），你可能有权访问、更正、删除你的个人数据或反对对其的处理。由于我们自己不持有你的个人数据，大部分请求可以通过上述设置或直接向 Google 提出。你仍然可以就任何问题联系我们。</p>
+<p>根据你所在地区的法律（例如 GDPR 或《加州消费者隐私法》），你可能有权访问、更正、删除、导出你的个人数据或反对其处理。请联系我们提出请求，我们会在 30 天内答复。广告数据相关的请求可通过上述设置或直接向 Google 提出。</p>
 
 <h2>7. 政策更新</h2>
-<p>我们可能更新本政策（例如游戏增加新功能或服务时）。新版本会发布在本网址，并注明新的生效日期。</p>
+<p>本游戏增加新功能或服务时，我们可能更新本政策。新版本会发布在本地址并更新生效日期。</p>
 
 <h2>8. 联系我们</h2>
-<p>liuzhilin — <a href="mailto:liuzhilin1230@gmail.com">liuzhilin1230@gmail.com</a></p>
+<p>liuzhilin（bigfish）— <a href="mailto:liuzhilin1230@gmail.com">liuzhilin1230@gmail.com</a></p>
 </section>
 </main>
 </body>
